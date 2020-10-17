@@ -1,0 +1,28 @@
+.userDetailsContainer{
+    display: flex;
+    margin: auto;
+    margin-top: 24px;
+    max-width: 75%;
+    color: rgb(36, 36, 36);
+}
+
+.userIDContainer{
+    margin-bottom: 20px;
+}
+.userID{
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+.userFollowButton{
+    height:30px;
+    margin-left:20px;
+}
+
+.userStats{
+    > p{
+        margin-right: 40px;
+        > span {
+            font-weight: bold;
+        }
+    }
+}
